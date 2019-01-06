@@ -1,7 +1,7 @@
 {
   "name": "techdegree-unit-06",
   "version": "1.0.0",
-  "description": "",
+  "description": "A personal portfolio demonstrating web development work. Built on node.js and Express.js.",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -14,7 +14,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "portfolio",
+    "node",
+    "express",
+    "full-stack javascript"
+  ],
+  "author": "Noel Keener",
+  "license": "MIT"
 }

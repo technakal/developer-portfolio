@@ -2,11 +2,17 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
+/** TODO: update package.json to use node app.js instead of nodemon app.js at the start command */
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/static', express.static('public'));
 
 const mainRoutes = require('./routes/index');
 app.use(mainRoutes);
+
+const projectRoutes = require('./routes/projects');
+app.use('/project', projectRoutes);
+app.use('/projects', projectRoutes);
 
 /**
  * Use pug as the templating engine

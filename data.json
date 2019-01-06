@@ -1,0 +1,45 @@
+{
+  "data": {
+    "projects": [{
+        "id": "0",
+        "project_name": "Test JSON Project",
+        "description": "Creating a mockup of JSON data structure",
+        "technologies": "JSON and a text editor",
+        "live_link": "https://github.com/technakal",
+        "github_link": "https://github.com/technakal/techdegree-unit-05",
+        "image_urls": []
+      },
+      {
+        "id": "1",
+        "project_name": "Test JSON Project 2",
+        "description": "Creating a mockup of JSON data structure",
+        "technologies": ["JSON", "Visual Studio"],
+        "live_link": "https://github.com/technakal",
+        "github_link": "https://github.com/technakal/techdegree-unit-05",
+        "image_urls": []
+      }
+    ],
+    "skills": {
+      "technical": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "jQuery",
+        "API integration",
+        "node.js",
+        "Express.js",
+        "React",
+        "SQL",
+        "Object-oriented programming",
+        "Functional programming"
+      ],
+      "analytical": [
+        "Requirements analysis",
+        "Scope management",
+        "Collaborative solution design",
+        "Meeting productivity techniques",
+        "Task estimation"
+      ]
+    }
+  }
+}
