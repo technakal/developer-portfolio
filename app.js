@@ -1,8 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-
-/** TODO: update package.json to use node app.js instead of nodemon app.js at the start command */
+const port = process.env.port || 3000;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/static', express.static('public'));
@@ -31,4 +30,4 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
-app.listen(3000, () => console.log('The app is listening on port 3000.'));
+app.listen(port, () => console.log('The app is listening on port 3000.'));
