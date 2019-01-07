@@ -6,17 +6,9 @@
 
 Create a personal portfolio demonstrating your web development work, using node.js and Express.js.
 
-### Glossary
-
-| Term | Definition |
-| ---- | ---------- |
-|      |            |
-
 ### Requirements
 
-#### Raw Notes
-
-**_Priority 1_**
+#### Priority 1
 
 - Create a portfolio site
 - Include the following pages:
@@ -25,10 +17,9 @@ Create a personal portfolio demonstrating your web development work, using node.
     - Share contact info
     - Give elevator pitch
   - Project pages
-    - Show at least five projects from this Techdegree
-    - Use \_blank on project links so users don't leave the portfolio site
-- Display nice images:
-  - Profile image 550px x 350px
+    Show at least five projects from this Techdegree - Use \_blank on project links so users don't leave the portfolio site
+    Display nice images:
+  - // TODO: Profile image 550px x 350px
   - Screenshots for each project:
     - Main landing page 550px x 550px
     - One-to-three additional images of the project 1200px x 550px
@@ -51,7 +42,7 @@ Create a personal portfolio demonstrating your web development work, using node.
     - About page on '/about' route
     - Dynamic project pages served on '/project' or /projects route
       - Use the same Pug template for each page, just inject the correct data based on the passed id parameter
-        - `/project?1` serves the project with id=1, `projects?4 serves the project with id=4, etc.
+        - `/project?1` serves the project with id=1, `projects?4` serves the project with id=4, etc.
   - Set up middleware to utilize static files
   - Handle errors
     - Console.log the error message, status, and stack
@@ -61,14 +52,11 @@ Create a personal portfolio demonstrating your web development work, using node.
   - Use code comments throughout
   - Cross-browser compatible
 
-**_Priority 2_**
+#### Priority 2
 
-- Customize package.json so that `npm start` serves the app
+- // TODO: Customize package.json so that `npm start` serves the app
 - Create an error.pug file to serve your errors
-  - Display the following items in a user-friendly way:
-    - error.message
-    - error.status
-    - error.stack
+  - TODO: Display the following items in a user-friendly way: - error.message - error.status - error.stack
 - Customize the style
   - Update or add at least three of the following CSS items:
     - color
@@ -81,3 +69,8 @@ Create a personal portfolio demonstrating your web development work, using node.
   - Don't change overall layout or positioning
 
 ### Design
+
+- Added a custom color scheme to the backgrounds, buttons, and link elements.
+- Added box shadows and transition effects to the thumbnail images.
+- Changed fonts.
+- Edited styles throughout to use CSS variables, for ease of maintenance.

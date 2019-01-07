@@ -2,21 +2,138 @@
   "data": {
     "projects": [{
         "id": "0",
-        "project_name": "Test JSON Project",
-        "description": "Creating a mockup of JSON data structure",
-        "technologies": "JSON and a text editor",
-        "live_link": "https://github.com/technakal",
+        "project_name": "Awesome Startup Employee Database Front-End",
+        "description": "A prototype for the front-end of an employee database. Provides randomized users via the Random User Generator API, and gives users a friendly, colorful way to explore their fellow \"employees\" at Awesome Startup.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented JavaScript", "API Integration"],
+        "stored": "Github Repo",
+        "live_link": "https://technakal.github.io/techdegree-unit-05/",
         "github_link": "https://github.com/technakal/techdegree-unit-05",
-        "image_urls": []
+        "mainImg": "/static/images/projects/awe_startup/awe_startup_main.png",
+        "image_urls": [
+          "/static/images/projects/awe_startup/awe_startup_1.png",
+          "/static/images/projects/awe_startup/awe_startup_2.png",
+          "/static/images/projects/awe_startup/awe_startup_3.png"
+        ]
       },
       {
         "id": "1",
-        "project_name": "Test JSON Project 2",
-        "description": "Creating a mockup of JSON data structure",
-        "technologies": ["JSON", "Visual Studio"],
-        "live_link": "https://github.com/technakal",
-        "github_link": "https://github.com/technakal/techdegree-unit-05",
-        "image_urls": []
+        "project_name": "Mama's Words of Wisdom",
+        "description": "A word-guessing game themed on that Southern wisdom I grew up on. Uses object-oriented programming techniques to deliver a unique, wholesome hangman experience.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented JavaScript"],
+        "stored": "Github Repo",
+        "live_link": "https://technakal.github.io/techdegree-unit-04/",
+        "github_link": "https://github.com/technakal/techdegree-unit-04",
+        "mainImg": "/static/images/projects/mama/mama_main.png",
+        "image_urls": [
+          "/static/images/projects/mama/mama_main_wide.png",
+          "/static/images/projects/mama/mama_1.png",
+          "/static/images/projects/mama/mama_2.png",
+          "/static/images/projects/mama/mama_3.png",
+          "/static/images/projects/mama/mama_4.png"
+        ]
+      },
+      {
+        "id": "2",
+        "project_name": "fCC Technical Documentation",
+        "description": "A prototype for a technical documentation site.",
+        "technologies": ["HTML", "CSS", "Flexbox", "CSS Animation", "JavaScript"],
+        "stored": "Codepen Pen",
+        "live_link": "https://codepen.io/technakal/live/vrwXRv",
+        "github_link": "https://codepen.io/technakal/pen/vrwXRv",
+        "mainImg": "/static/images/projects/tech_doc/tech_doc_main.png",
+        "image_urls": [
+          "/static/images/projects/tech_doc/tech_doc_1.png",
+          "/static/images/projects/tech_doc/tech_doc_2.png"
+        ]
+      },
+      {
+        "id": "3",
+        "project_name": "Full Stack Conference Registration Form",
+        "description": "A registration form prototype. Performs real-time data validation and provides friendly user-feedback.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "stored": "Github Repo",
+        "live_link": "https://technakal.github.io/techdegree-unit-03/",
+        "github_link": "https://github.com/technakal/techdegree-unit-03",
+        "mainImg": "/static/images/projects/register/register_main.png",
+        "image_urls": [
+          "/static/images/projects/register/register_main_wide.png",
+          "/static/images/projects/register/register_1.png",
+          "/static/images/projects/register/register_2.png",
+          "/static/images/projects/register/register_3.png"
+        ]
+      },
+      {
+        "id": "4",
+        "project_name": "DNGN Go! Product Landing Page",
+        "description": "An informational product landing page for a tabletop gaming app. Custom SVG logo, too! Anyone like watermelon?",
+        "technologies": ["HTML", "CSS", "CSS Grid", "JavaScript"],
+        "stored": "Codepen Pen",
+        "live_link": "https://codepen.io/technakal/live/YvMMed",
+        "github_link": "https://codepen.io/technakal/pen/YvMMed",
+        "mainImg": "/static/images/projects/dngn/dngn_main.png",
+        "image_urls": [
+          "/static/images/projects/dngn/dngn_1.png"
+        ]
+      },
+      {
+        "id": "5",
+        "project_name": "Student Directory Search",
+        "description": "Prototype for a responsive student search directory. Uses progressive enhancement to provide pagination and responsive search functionality, without compromising backwards compatibility.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "stored": "Github Repo",
+        "live_link": "https://technakal.github.io/techdegree-unit-02/",
+        "github_link": "https://github.com/technakal/techdegree-unit-02",
+        "mainImg": "/static/images/projects/student_directory/student_directory_main.png",
+        "image_urls": [
+          "/static/images/projects/student_directory/student_directory_main_wide.png",
+          "/static/images/projects/student_directory/student_directory_1.png",
+          "/static/images/projects/student_directory/student_directory_2.png",
+          "/static/images/projects/student_directory/student_directory_3.png"
+        ]
+      },
+      {
+        "id": "6",
+        "project_name": "Interactive \"Symun\" Game",
+        "description": "Got a hankering for an old-fashioned game of Symun? We had to change the name for copyright reasons, but this interactive JavaScript game will scratch your nostalgic itch, all the same.",
+        "technologies": ["HTML", "Pug", "CSS", "Sass", "Flexbox", "JavaScript"],
+        "stored": "Codepen Pen",
+        "live_link": "https://codepen.io/technakal/live/jZWrOy",
+        "github_link": "https://codepen.io/technakal/pen/jZWrOy",
+        "mainImg": "/static/images/projects/symun/symun_main.png",
+        "image_urls": [
+          "/static/images/projects/symun/symun_main_wide.png",
+          "/static/images/projects/symun/symun_1.png",
+          "/static/images/projects/symun/symun_2.png"
+        ]
+      },
+      {
+        "id": "7",
+        "project_name": "Random Quote Generator",
+        "description": "A responsive quote generator delivering inspiration to you, no matter what device you're on. Uses modern CSS and JavaScript methodologies.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "stored": "Github Repo",
+        "live_link": "https://technakal.github.io/techdegree-unit-01/",
+        "github_link": "https://github.com/technakal/techdegree-unit-01",
+        "mainImg": "/static/images/projects/inspiratron/inspiratron_main.png",
+        "image_urls": [
+          "/static/images/projects/inspiratron/inspiratron_1.png",
+          "/static/images/projects/inspiratron/inspiratron_2.png",
+          "/static/images/projects/inspiratron/inspiratron_3.png"
+        ]
+      },
+      {
+        "id": "8",
+        "project_name": "Wikipedia Search API",
+        "description": "A front-end interface for searching Wikipedia via the Wikipedia API.",
+        "technologies": ["HTML", "Pug", "CSS", "Stylus", "JavaScript", "fetch"],
+        "stored": "Codepen Pen",
+        "live_link": "https://codepen.io/technakal/live/eGRoLq",
+        "github_link": "https://codepen.io/technakal/pen/eGRoLq",
+        "mainImg": "/static/images/projects/wikipedia/wikipedia_main.png",
+        "image_urls": [
+          "/static/images/projects/wikipedia/wikipedia_1.png",
+          "/static/images/projects/wikipedia/wikipedia_2.png"
+        ]
       }
     ],
     "skills": {
@@ -39,6 +156,14 @@
         "Collaborative solution design",
         "Meeting productivity techniques",
         "Task estimation"
+      ]
+    },
+    "random": {
+      "headings": [
+        "Good apps for good people.",
+        "Building for the better.",
+        "Work and play.",
+        "Apps are better with friends."
       ]
     }
   }

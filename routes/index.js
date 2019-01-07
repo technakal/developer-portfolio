@@ -1,13 +1,17 @@
 const express = require('express');
 const { data } = require('../data.json');
-const { skills } = data;
+const { skills, projects, random } = data;
+const { headings } = random;
 const router = express.Router();
 
 /**
  * Route to the main landing page.
+ * Choose a random heading for the page.
  */
 router.get('/', (req, res) => {
-  res.render('index');
+  const heading = headings[Math.floor(Math.random() * headings.length)];
+  const templateData = { projects, heading };
+  res.render('index', templateData);
 });
 
 /**

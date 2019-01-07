@@ -14,6 +14,6 @@ block content
           each tech in technologies
             li= tech
         a.button.expanded(href=`${live_link}` target='_blank') Live Demo
-        a.button.expanded(href=`${github_link}` target='_blank') GitHub Repo
+        a.button.expanded(href=`${github_link}` target='_blank')= stored
     each image in image_urls
       img.image(src=`${image}`)

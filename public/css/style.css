@@ -1,25 +1,24 @@
 :root {
   /* FONT VARIABLES */
-  --font-main: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-header: 'Merriweather', serif;
+  --font-main: 'Abel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-header: 'Staatliches', serif;
+  --font-size: 16px;
 
   /* COLOR VARIABLES */
   --color-text-main: #666;
   --color-text-dark: #111;
-  --color-text-light: #ECE9E6;
-  --color-primary: #111;
-  --color-secondary: #111;
+  --color-text-light: rgba(236, 233, 230, 0.938);
+  --color-primary: #875053;
+  --color-secondary: #f05053;
+  --color-light: #fff;
+  --color-bold: #fbf2c0;
 }
 
 body {
-  background: #ECE9E6;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: var(--color-primary);
+  background: linear-gradient(to bottom, var(--color-light), var(--color-text-light));
   font-family: var(--font-main);
+  font-size: var(--font-size);
 }
 
 h1,
@@ -33,20 +32,20 @@ h5 {
 h5 {
   font-family: var(--font-main);
   letter-spacing: 2.5px;
-  -webkit-text-transform: uppercase;
   text-transform: uppercase;
+  -webkit-text-transform: uppercase;
 }
 
 h6 {
-  letter-spacing: 2.5px;
-  -webkit-text-transform: uppercase;
-  text-transform: uppercase;
   font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  -webkit-text-transform: uppercase;
 }
 
 p {
-  font-size: 15px;
   color: var(--color-text-main);
+  font-size: var(--font-size);
 }
 
 .round {
@@ -58,15 +57,17 @@ p {
 }
 
 .button {
-  background-color: #333;
+  background-color: var(--color-secondary);
 }
 
 .button:hover {
-  background-color: var(--color-text-dark);
+  background-color: var(--color-bold);
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.2);
+  color: var(--color-text-dark);
 }
 
 a {
-  color: #333;
+  color: var(--color-text-dark);
 }
 
 a:hover {
@@ -74,13 +75,13 @@ a:hover {
 }
 
 .image {
-  display: inline-block;
-  max-width: 100%;
-  margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 2px 4px 1px rgba(10, 10, 10, 0.2), 0 3px 5px 2px rgba(10, 10, 10, 0.29);
+  display: inline-block;
   line-height: 0;
+  margin-bottom: 1rem;
+  max-width: 100%;
 }
 
 .title-bar {
@@ -88,60 +89,53 @@ a:hover {
 }
 
 .portfolio-me {
-  padding: 20px;
   background: var(--color-primary);
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, var(--color-primary), var(--color-primary));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, var(--color-secondary), var(--color-primary));
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  color: #fff;
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
   box-shadow: none !important;
+  color: #fff;
+  padding: 20px;
 }
 
 .portfolio-me p {
-  font-size: 14px;
   color: var(--color-text-light);
 }
 
 .portfolio-me a {
+  color: var(--color-text-light);
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
   font-weight: 600;
-  color: #555;
-  font-size: 13px;
   letter-spacing: 2.5px;
-  -webkit-text-transform: uppercase;
   text-transform: uppercase;
+  -webkit-text-transform: uppercase;
 }
 
 .portfolio-me a:hover {
-  color: var(--color-text-light);
+  color: var(--color-bold);
 }
 
 .portfolio-breadcrumb {
+  border-bottom: 1px solid var(--color-text-light);
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
 }
 
 .portfolio-breadcrumb a {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
   font-weight: 600;
-  font-size: 13px;
   letter-spacing: 2.5px;
-  -webkit-text-transform: uppercase;
   text-transform: uppercase;
+  -webkit-text-transform: uppercase;
 }
 
 .portfolio-intro {
   margin: 0;
-  padding: 40px 50px 30px;
+  padding: 40px 50px 10px;
 }
 
 .portfolio-intro p {
-  border-bottom: 1px solid #eaeaea;
-  padding-bottom: 40px;
+  border-bottom: 1px solid var(--color-text-light);
 }
 
 .portfolio-index {
@@ -151,6 +145,14 @@ a:hover {
 
 .portfolio-index .thumbnail {
   margin-bottom: 5px;
+  transition: 0.1s all ease-in;
+}
+
+.portfolio-index .thumbnail:hover {
+  box-shadow: 0 3px 4px rgba(10, 10, 10, 0.2), 0 5px 7px 3px rgba(10, 10, 10, 0.29);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.2s all ease-out;
 }
 
 .portfolio-index a {
@@ -178,8 +180,7 @@ a:hover {
 }
 
 .portfolio-project li {
-  font-size: 13px;
-  color: #444;
+  color: var(--color-text-main);
 }
 
 .portfolio-bio {
