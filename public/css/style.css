@@ -7,16 +7,18 @@
   /* COLOR VARIABLES */
   --color-text-main: #666;
   --color-text-dark: #111;
-  --color-text-light: rgba(236, 233, 230, 0.938);
+  --color-text-light: rgba(236, 233, 230, 0.904);
   --color-primary: #875053;
   --color-secondary: #f05053;
-  --color-light: #fff;
+  --color-light: rgb(240, 240, 240);
+  --color-mid: rgb(231, 231, 231);
   --color-bold: #fbf2c0;
 }
 
 body {
-  background: var(--color-primary);
-  background: linear-gradient(to bottom, var(--color-light), var(--color-text-light));
+  background: var(--color-light) no-repeat center center fixed;
+  background: linear-gradient(to bottom, var(--color-light), var(--color-mid)) no-repeat center center fixed;
+  background-size: cover;
   font-family: var(--font-main);
   font-size: var(--font-size);
 }
@@ -24,9 +26,13 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
+  background: var(--color-primary);
+  background: -webkit-linear-gradient(135deg, var(--color-secondary), var(--color-primary));
+  background: linear-gradient(135deg, var(--color-secondary), var(--color-primary));
+  -webkit-background-clip: text;
   font-family: var(--font-header);
+  -webkit-text-fill-color: transparent;
 }
 
 h5 {
@@ -61,9 +67,8 @@ p {
 }
 
 .button:hover {
-  background-color: var(--color-bold);
+  background-color: var(--color-text-dark);
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.2);
-  color: var(--color-text-dark);
 }
 
 a {

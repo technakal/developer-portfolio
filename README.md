@@ -18,11 +18,11 @@ Create a personal portfolio demonstrating your web development work, using node.
     - Give elevator pitch
   - Project pages
     Show at least five projects from this Techdegree - Use \_blank on project links so users don't leave the portfolio site
-    Display nice images:
-  - // TODO: Profile image 550px x 350px
-  - Screenshots for each project:
-    - Main landing page 550px x 550px
-    - One-to-three additional images of the project 1200px x 550px
+  - Display nice images:
+    - Profile image 550px x 350px
+    - Screenshots for each project:
+      - Main landing page 550px x 550px
+      - One-to-three additional images of the project 1200px x 550px
 - Use JSON file to store project data
   - Store the following data elements:
     - id
@@ -54,9 +54,8 @@ Create a personal portfolio demonstrating your web development work, using node.
 
 #### Priority 2
 
-- // TODO: Customize package.json so that `npm start` serves the app
 - Create an error.pug file to serve your errors
-  - TODO: Display the following items in a user-friendly way: - error.message - error.status - error.stack
+- Display the following items in a user-friendly way: - error.message - error.status - error.stack
 - Customize the style
   - Update or add at least three of the following CSS items:
     - color

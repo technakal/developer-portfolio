@@ -3,7 +3,8 @@ extends layout
 block content
   section
     div.grid-x.grid-padding-x.grid-padding-y.align-center.align-middle
-      h1.cell.small-10.text-center= `${error.message} - ${error.status}`
+      h1.cell.small-10.text-center Oops! Uhh... You shouldn't be here.
+      h2.cell.small-10.text-center= `Error: ${error.message} - ${error.status}`
       pre.cell.small-12= error.stack
     .grid-x.grid-padding-x.align-center.align-middle
-      a.button.primary(href="/") Go Back
+      a.button(href="/") Go Back
