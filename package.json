@@ -12,7 +12,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [
     "portfolio",
@@ -20,6 +20,9 @@
     "express",
     "full-stack javascript"
   ],
+  "engines": {
+    "node": "11.6.0"
+  },
   "author": "Noel Keener",
   "license": "MIT"
 }
