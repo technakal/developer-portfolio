@@ -30,7 +30,7 @@
         ]
       },
       {
-        "id": "1",
+        "id": "2",
         "project_name": "Mama's Words of Wisdom",
         "description": "A word-guessing game themed on that Southern wisdom I grew up on. Uses object-oriented programming techniques to deliver a unique, wholesome hangman experience.",
         "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented JavaScript"],
@@ -47,7 +47,7 @@
         ]
       },
       {
-        "id": "2",
+        "id": "3",
         "project_name": "fCC Technical Documentation",
         "description": "A prototype for a technical documentation site.",
         "technologies": ["HTML", "CSS", "Flexbox", "CSS Animation", "JavaScript"],
