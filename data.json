@@ -17,6 +17,20 @@
       },
       {
         "id": "1",
+        "project_name": "Brookville Public Library eCatalogue",
+        "description": "A searchable, editable, digital card catalogue for the fictitious public library in Brookville.",
+        "technologies": ["Pug", "CSS", "JavaScript", "Express.js", "Node.js", "sqlite", "Sequelize"],
+        "stored": "Github Repo",
+        "live_link": "https://frozen-beyond-36103.herokuapp.com/",
+        "github_link": "https://github.com/technakal/techdegree-unit-08",
+        "mainImg": "/static/images/projects/bpl/bpl_main.png",
+        "image_urls": [
+          "/static/images/projects/bpl/bpl_1.png",
+          "/static/images/projects/bpl/bpl_2.png"
+        ]
+      },
+      {
+        "id": "1",
         "project_name": "Mama's Words of Wisdom",
         "description": "A word-guessing game themed on that Southern wisdom I grew up on. Uses object-oriented programming techniques to deliver a unique, wholesome hangman experience.",
         "technologies": ["HTML", "CSS", "JavaScript", "Object-oriented JavaScript"],
