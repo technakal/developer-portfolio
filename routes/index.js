@@ -1,6 +1,6 @@
 const express = require('express');
 const { data } = require('../data.json');
-const { skills, projects, random } = data;
+const { skills, hobbies, projects, random, contact } = data;
 const { headings } = random;
 const router = express.Router();
 
@@ -19,7 +19,11 @@ router.get('/', (req, res) => {
  */
 router.get('/about', (req, res) => {
   const { technical, analytical } = skills;
-  res.render('about', { technical, analytical });
+  res.render('about', { technical, analytical, hobbies });
+});
+
+router.get('/contact', (req, res) => {
+  res.render('contact', { contact });
 });
 
 module.exports = router;

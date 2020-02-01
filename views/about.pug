@@ -8,26 +8,32 @@ block content
       .cell.small-6.medium-9.large-9
         h1 Noel Keener
         p.lead.text-light
-          | Full Stack JavaScript Developer
+          | Software Developer
         .portfolio-bio
           p 
-            | Personable and focused web developer with a passion for creating powerful, responsive web applications. Possesses a track record of discovering business needs and delivering productivity-improving solutions. Comprehensive knowledge of the software development lifecycle and requirements analysis techniques. Loves collaborating with others to build better software.
+            | Personable and focused software developer with a passion for creating powerful, responsive web applications. Possesses a track record of discovering business needs and delivering productivity-improving solutions. Comprehensive knowledge of the software development lifecycle and requirements analysis techniques. Loves collaborating with others to build better software.
+          p
+            | I get up at 5 AM every day, so that I can spend some quality time, first thing in the morning, exercising, learning new things, and building something cool. I am <em>always</em> investing time in becoming my best self.
           p
             | Delivering results doesn't have to mean sacrificing relationships. I bring my best to every project, and I never miss an opportunity to laugh.
           h4 Experience
           h5 Pharmacists Mutual
+          ul
+            li Software Developer
+          p
+            | Developed automation solutions and productivity software using JavaScript, C#,  and SQL. Integrated business systems with third-party APIs. Helped data tell its story so that business leaders could make data-infused decisions.
           ul 
             li Business Analyst II
             li Business Analyst I
           p 
             | Managed business expectations and negotiated project delivery based on scope, timeline, and resource allocation. Worked with executives, business users, and developers to document business needs and deliver requirements specifications for all sizes of projects. Documented solution functionality and coordinated user training. 
-          h5 MaxYield Cooperative 
-          ul
-            li Store Manager
-            li Assistant Manager
-          p 
-            | Hired, trained, and supervised a dozen employees. Implemented a new point-of-sale and back-office database system to track inventory, process sales, and provide accounting summaries. Automated financial and managerial processes to reduce redundant data entry.
           h4 Education
+          h5 Udacity | Java Developer Nanodegree
+          p
+            | Completed hands-on coursework and projects focused on enterprise-grade back-end development using Java, Spring Boot, Hibernate, MySQL and MongoDB.
+          h5 Team Treehouse | Full-Stack JavaScript Developer
+          p 
+            | Completed 300 hours of coursework in modern JavaScript-based web development. Designed, developed, and tested production-grade applications using HTML, CSS, JavaScript, Node, Express, React, SQL, and MongoDB.
           h5 freeCodeCamp | Front-End Web Development
           p 
             | Completed 400 hours of course work and hands-on development projects using HTML5, CSS3, JavaScript, Bootstrap, and jQuery, API integration.
@@ -36,22 +42,19 @@ block content
             | Bachelor’s degree in computer information technology. Coursework focused on computer hardware and software, database design and administration, network communications, and cyber security, Graduated with a 4.0 GPA.
           h4 Hobbies
           ul
-            li Exercise enthusiast who enjoys working hard with calisthenics strength training.
-            li Purveyor of science fiction and fantasy novels.
-            li Collaborative storyteller, using imagination to entertain and foster relationships.
+            each hobby in hobbies
+              li= hobby
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technical Skills
         ul
           each skill in technical
             li= skill
-        h6 Business Skills
+        h6 Other Skills
         ul
           each skill in analytical
             li= skill
         h6 Contact Info
-        ul
-          li 
-            a(href="mailto:noel@nakeener.com") noel@nakeener.com
+        a.button.expanded(href="mailto:noel@nakeener.com") Email
         a.button.expanded(href='https://www.linkedin.com/in/technakal/' target="_blank") LinkedIn
         a.button.expanded(href='https://github.com/technakal' target="_blank") GitHub
   nav.grid-container.portfolio-breadcrumb
