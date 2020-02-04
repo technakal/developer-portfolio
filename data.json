@@ -2,7 +2,7 @@
   "data": {
     "projects": [
       {
-        "id": "10",
+        "id": "11",
         "project_name": "Screenie Baby",
         "description": "A simple web application for capturing video of your screen. Uses the MediaStream API and client-side JavaScript to record any application or window you choose. Doesn't store or transmit your data to any third-party servers, so you don't have to worry about leaks.",
         "technologies": [
@@ -19,6 +19,30 @@
         "image_urls": [
           "/static/images/projects/screeniebaby/screeniebaby_1.png",
           "/static/images/projects/screeniebaby/screeniebaby_2.png"
+        ]
+      },
+      {
+        "id": "10",
+        "project_name": "The Gallery",
+        "description": "A gallery app created using React, React Router, and the Flickr API. Stylish and functional. Also makes use the MIT's awesome, open-source library of design assets, UnDraw (https://undraw.co/).",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Flickr API",
+          "React",
+          "React Router",
+          "UnDraw"
+        ],
+        "stored": "Github Repo",
+        "live_link": "https://nak-gallery.herokuapp.com/",
+        "github_link": "https://github.com/technakal/the-gallery",
+        "mainImg": "/static/images/projects/the_gallery/the_gallery_main.png",
+        "image_urls": [
+          "/static/images/projects/the_gallery/the_gallery_main.png",
+          "/static/images/projects/the_gallery/the_gallery_1.png",
+          "/static/images/projects/the_gallery/the_gallery_2.png",
+          "/static/images/projects/the_gallery/the_gallery_3.png"
         ]
       },
       {
@@ -110,7 +134,11 @@
         "id": "5",
         "project_name": "Full Stack Conference Registration Form",
         "description": "A registration form prototype. Performs real-time data validation and provides friendly user-feedback.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "stored": "Github Repo",
         "live_link": "https://technakal.github.io/techdegree-unit-03/",
         "github_link": "https://github.com/technakal/techdegree-unit-03",
@@ -126,18 +154,29 @@
         "id": "4",
         "project_name": "DNGN Go! Product Landing Page",
         "description": "An informational product landing page for a tabletop gaming app. Custom SVG logo, too! Anyone like watermelon?",
-        "technologies": ["HTML", "CSS", "CSS Grid", "JavaScript"],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "CSS Grid",
+          "JavaScript"
+        ],
         "stored": "Codepen Pen",
         "live_link": "https://codepen.io/technakal/live/YvMMed",
         "github_link": "https://codepen.io/technakal/pen/YvMMed",
         "mainImg": "/static/images/projects/dngn/dngn_main.png",
-        "image_urls": ["/static/images/projects/dngn/dngn_1.png"]
+        "image_urls": [
+          "/static/images/projects/dngn/dngn_1.png"
+        ]
       },
       {
         "id": "3",
         "project_name": "Student Directory Search",
         "description": "Prototype for a responsive student search directory. Uses progressive enhancement to provide pagination and responsive search functionality, without compromising backwards compatibility.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "stored": "Github Repo",
         "live_link": "https://technakal.github.io/techdegree-unit-02/",
         "github_link": "https://github.com/technakal/techdegree-unit-02",
@@ -153,7 +192,14 @@
         "id": "2",
         "project_name": "Interactive \"Symun\" Game",
         "description": "Got a hankering for an old-fashioned game of Symun? We had to change the name for copyright reasons, but this interactive JavaScript game will scratch your nostalgic itch, all the same.",
-        "technologies": ["HTML", "Pug", "CSS", "Sass", "Flexbox", "JavaScript"],
+        "technologies": [
+          "HTML",
+          "Pug",
+          "CSS",
+          "Sass",
+          "Flexbox",
+          "JavaScript"
+        ],
         "stored": "Codepen Pen",
         "live_link": "https://codepen.io/technakal/live/jZWrOy",
         "github_link": "https://codepen.io/technakal/pen/jZWrOy",
@@ -168,7 +214,11 @@
         "id": "1",
         "project_name": "Random Quote Generator",
         "description": "A responsive quote generator delivering inspiration to you, no matter what device you're on. Uses modern CSS and JavaScript methodologies.",
-        "technologies": ["HTML", "CSS", "JavaScript"],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "stored": "Github Repo",
         "live_link": "https://technakal.github.io/techdegree-unit-01/",
         "github_link": "https://github.com/technakal/techdegree-unit-01",
@@ -183,7 +233,14 @@
         "id": "0",
         "project_name": "Wikipedia Search API",
         "description": "A front-end interface for searching Wikipedia via the Wikipedia API.",
-        "technologies": ["HTML", "Pug", "CSS", "Stylus", "JavaScript", "fetch"],
+        "technologies": [
+          "HTML",
+          "Pug",
+          "CSS",
+          "Stylus",
+          "JavaScript",
+          "fetch"
+        ],
         "stored": "Codepen Pen",
         "live_link": "https://codepen.io/technakal/live/eGRoLq",
         "github_link": "https://codepen.io/technakal/pen/eGRoLq",
