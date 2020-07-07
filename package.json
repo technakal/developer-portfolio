@@ -6,7 +6,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "npm": "^6.13.7",
+    "npm": "^6.14.6",
     "pug": "^2.0.3"
   },
   "devDependencies": {
