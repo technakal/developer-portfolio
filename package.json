@@ -4,8 +4,8 @@
   "description": "A personal portfolio demonstrating web development work. Built on node.js and Express.js.",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "npm": "^6.13.7",
     "pug": "^2.0.3"
   },
